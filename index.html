@@ -13,12 +13,12 @@
     <div class="container">
         <h1>Contact us</h1>
         <div class="contactform"></div>
-        <form action="form.php" method="POST" onsubmit="validateform()">
+        <form action="form.php" method="POST" onsubmit="return validateform()">
             <div class="inputform">
-                <input type="text" placeholder="Fullname" name="name" title="fULLname" class="holder" id="name">
+                <input type="text" placeholder="Fullname" name="name" title="fullname" class="holder" id="name">
             </div>
             <div class="inputform">
-                <input type="text" placeholder="Email" title="email" name="email" class="holder" id="email">
+                <input type="email" placeholder="Email" title="email" name="email" class="holder" id="email">
             </div> <div class="inputform">
                 <textarea  class="holder" name="message" placeholder="Message"></textarea>
             </div>
